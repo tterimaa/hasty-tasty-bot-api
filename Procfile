@@ -1,1 +1,1 @@
-web: app:app
+web: get_recommendations:app

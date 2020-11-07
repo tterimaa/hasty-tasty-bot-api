@@ -1,1 +1,1 @@
-web: gunicorn get_recommendations:app
+web: gunicorn wsgi:app

@@ -9,7 +9,7 @@ import aito.api as aito_api
 
 # Fill in your Aito instance credentials
 AITO_INSTANCE_URL = 'https://artsyjunction2020.aito.app'
-AITO_API_KEY = ''
+
 client = AitoClient(instance_url=AITO_INSTANCE_URL, api_key=AITO_API_KEY)
 
 app = Flask(__name__)
